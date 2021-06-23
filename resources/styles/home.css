@@ -1,0 +1,118 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#cover {
+  background: rgba(19, 27, 35, 0.7);
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header {
+  color: #E9F1F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #131B23;
+  background: #E9F1F7;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+header a:hover {
+  background: #87677B;
+  color: #E9F1F7;
+}
+
+#surv {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    color: #E9F1F7;
+  }
+  50% {
+    color: #87677B;
+  }
+  100% {
+    color: #E9F1F7;
+  }
+}
+
+@keyframes fade {
+  0% {
+    color: #E9F1F7;
+  }
+  50% {
+    color: #87677B;
+  }
+  100% {
+    color: #E9F1F7;
+  }
+}
+/*# sourceMappingURL=home.css.map */

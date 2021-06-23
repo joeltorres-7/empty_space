@@ -1,0 +1,103 @@
+// Formatting SCSS
+
+html {
+    margin: 0;
+    padding: 0;
+
+    // Font
+
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+// Body
+
+body {
+    margin: 0;
+    padding: 0;
+
+    // Background
+
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+// Transparent Cover
+
+#cover {
+    background: rgba($color: #131B23, $alpha: 0.7);
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+
+    // Responsive
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Header
+
+header {
+    color: #E9F1F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    h3 {
+        font-weight: 300;
+        font-size: 1.5rem;
+        margin: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #131B23;
+        background: #E9F1F7;
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        transition-duration: .5s;
+
+        &:hover {
+            background: #87677B;
+            color: #E9F1F7;
+        }
+    }
+}
+
+// Text effects
+
+#surv {
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+    @keyframes fade {
+        0% {
+            color: #E9F1F7;
+        }
+
+        50% {
+            color: #87677B;
+        }
+
+        100% {
+            color: #E9F1F7;
+        }
+    }
+}
